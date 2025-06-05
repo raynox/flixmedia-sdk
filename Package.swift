@@ -9,6 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "FlixmediaiOSSDK",
+            type: .dynamic,
             targets: ["FlixmediaiOSSDK"])
     ],
     targets: [
